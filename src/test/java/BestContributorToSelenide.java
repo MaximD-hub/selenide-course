@@ -21,6 +21,7 @@ public class BestContributorToSelenide {
         // проверка: во всплывающем окне есть текст Andrei Solntsev
         $$(".Popover-message").findBy(visible).shouldHave(text("Andrei Solntsev"));
 
+        // не закрывает окно
         sleep(5000);
     }
 }
