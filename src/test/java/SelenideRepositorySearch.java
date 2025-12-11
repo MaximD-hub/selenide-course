@@ -29,7 +29,7 @@ public class SelenideRepositorySearch {
         $$("[data-testid='results-list'] a").first().click();
 
         // проверка: заголовок selenide/selenide
-        $("#repository-container-header" ).shouldHave(text("selenide / selenide"));
+        $("#repository-container-header").shouldHave(text("selenide / selenide"));
 
         sleep(5000);
     }
